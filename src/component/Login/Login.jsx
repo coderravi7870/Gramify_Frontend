@@ -34,10 +34,6 @@ const Login = () => {
       }
     })
     .catch((err) => {
-      // Log the error details for debugging
-      console.error(err);
-  
-      // Handle potential error cases more explicitly
       if (err.response && err.response.data) {
         toast.error(err.response.data.message || "An error occurred");
       } else {
