@@ -1,1 +1,1 @@
-export const  server = "https://gramify-backend.onrender.com"
+export const  server = "http://localhost:5000"
